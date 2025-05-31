@@ -1,0 +1,1084 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+<title>Image Weather Changer | AI Photo Weather Effects Generator</title>
+<meta name="description"
+    content="Effortlessly change the weather in your images with the AI Image Weather Changer. Instantly add rain, snow, sunshine, fog, or storms to any photo. Free, fast, and easy to use for photographers, designers, and creators.">
+<meta name="keywords"
+    content="image weather changer, AI weather editor, change weather in photo, add rain to image, snow effect generator, sunny photo editor, storm effect tool, free weather changer, WriteCream AI, photo weather manipulation, background weather changer">
+<meta name="author" content="WriteCream AI">
+<meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1" />
+<meta name="language" content="English" />
+<meta name="distribution" content="global" />
+<meta name="rating" content="General" />
+<meta name="revisit-after" content="7 days" />
+<meta name="theme-color" content="#ffffff" />
+<meta name="application-name" content="WriteCream AI Image Weather Changer" />
+
+<!-- Canonical -->
+<link rel="canonical" href="https://www.writecream.com/image-weather-changer/" />
+
+<!-- Favicons -->
+<link rel="icon" href="/favicon.ico" />
+<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
+<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png" />
+<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png" />
+
+<!-- Open Graph / Facebook -->
+<meta property="og:type" content="website" />
+<meta property="og:url" content="https://www.writecream.com/image-weather-changer/" />
+<meta property="og:title" content="Free AI Image Weather Changer | Add Weather Effects to Photos - WriteCream AI" />
+<meta property="og:description"
+    content="Change the weather in any photo instantly! Add rain, snow, sun, or fog with the free AI Image Weather Changer. Perfect for photographers, marketers, and content creators.">
+<meta property="og:image"
+    content="https://www.writecream.com/wp-content/uploads/2025/05/og-image-weather-changer.jpg" />
+<meta property="og:site_name" content="WriteCream AI" />
+<meta property="og:locale" content="en_US" />
+
+<!-- Twitter Cards -->
+<meta name="twitter:card" content="summary_large_image" />
+<meta name="twitter:url" content="https://www.writecream.com/image-weather-changer/" />
+<meta name="twitter:title" content="Image Weather Changer - Add Realistic Weather to Your Photos | WriteCream AI" />
+<meta name="twitter:description"
+    content="Transform your images instantly with realistic weather effects. Try the free AI Image Weather Changer to add rain, snow, or sunshine to your photo backgrounds.">
+<meta name="twitter:image"
+    content="https://www.writecream.com/wp-content/uploads/2025/05/twitter-image-weather-changer.jpg" />
+<meta name="twitter:creator" content="@WriteCreamAI" />
+
+<!-- Instagram Integration -->
+<meta property="og:see_also" content="https://www.instagram.com/writecreamai/" />
+<meta name="instagram:site" content="@writecreamai" />
+<meta name="instagram:image"
+    content="https://www.writecream.com/wp-content/uploads/2025/05/instagram-image-weather-changer.jpg" />
+
+<!-- Additional SEO Meta -->
+<meta name="geo.region" content="US" />
+<meta name="geo.placename" content="New York, USA" />
+<meta name="geo.position" content="40.7128;-74.0060" />
+<meta name="ICBM" content="40.7128, -74.0060" />
+<meta name="mobile-web-app-capable" content="yes" />
+<meta name="HandheldFriendly" content="true" />
+<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+
+<!-- Schema Markup (JSON-LD) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebApplication",
+  "name": "Image Weather Changer - WriteCream AI",
+  "url": "https://www.writecream.com/image-weather-changer/",
+  "description": "AI-powered image weather changer. Add or change weather effects (rain, snow, sun, fog) in photos with a single click. Free online tool for realistic photo weather manipulation.",
+  "applicationCategory": "PhotoEditingApplication",
+  "operatingSystem": "All",
+  "offers": {
+    "@type": "Offer",
+    "price": "0.00",
+    "priceCurrency": "USD"
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "WriteCream AI",
+    "url": "https://www.writecream.com/"
+  },
+  "aggregateRating": {
+    "@type": "AggregateRating",
+    "ratingValue": "4.9",
+    "reviewCount": "2172"
+  }
+}
+</script>
+
+<!-- Fonts and CSS -->
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;500;600;700&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet" />
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" />
+<link rel="stylesheet" href="../style.css">
+</head>
+<body>
+    <div class="container">
+        <h1 class="main-title fade-in-up">AI Image Weather Changer</h1>
+        <div class="intro-text fade-in-up delay-1">
+            <p>
+                Instantly transform the weather in any image with the AI Image Weather Changer by WriteCream AI! Whether you want to add a shower of rain, a dusting of snow, bright sunny skies, dramatic clouds, or a mysterious fog, our advanced AI makes it one click simple. Content creators, designers, marketers, and photographers can all benefit from this cutting-edge weather changer tool. No need for Photoshop or complex editing software—just describe your desired weather, upload your photo, and let our AI do the rest. Perfect for creating seasonal campaigns, telling visual stories, or simply having fun with your images. Bring your creative vision to life with realistic, natural weather effects—free, fast, and no sign-up required.
+            </p>
+        </div>
+        <div class="card fade-in-up delay-2" id="promptSection">
+            <div class="section-header">
+                <h2 class="section-title">Change Weather In Your Photo</h2>
+            </div>
+            <div class="input-wrapper">
+                <input type="text" id="promptInput"
+                    placeholder="Describe the weather you want (e.g., 'heavy snow', 'sunny sky', 'thunderstorm', 'spring rain', 'autumn fog')">
+                <div class="suggestion-chips" data-animation="fadeInUp">
+                    <span class="chip">Rainy afternoon</span>
+                    <span class="chip">Light snow fall</span>
+                    <span class="chip">Bright sunny sky</span>
+                    <span class="chip">Thick morning fog</span>
+                    <span class="chip">Stormy evening</span>
+                </div>
+            </div>
+            <div class="actions">
+                <div class="tool-buttons">
+                    <button class="btn btn-tool" id="style-btn" title="Select Weather Style">
+                        <i class="fas fa-cloud-sun"></i>
+                        <span class="current-style">Weather</span>
+                    </button>
+                </div>
+                <div class="action-buttons">
+                    <button class="btn btn-primary" id="generateBtn">
+                        <i class="fas fa-wand-sparkles"></i>
+                        Generate
+                    </button>
+                    <button class="btn btn-primary" id="regenerateBtn">
+                        <i class="fas fa-sync-alt"></i>
+                        Regenerate
+                    </button>
+                </div>
+            </div>
+            <div class="result-section" id="resultSection">
+                <div class="loading-spinner">
+                    <i class="fas fa-spinner fa-spin"></i>
+                    <p>Applying your chosen weather to the image...</p>
+                </div>
+                <div class="error-message">
+                    <i class="fas fa-exclamation-circle"></i>
+                    <p>Something went wrong. Please try again or use a different image.</p>
+                </div>
+                <div id="successMessage" class="success-message"
+                    style="display:none; color:green; font-weight:bold; margin-bottom:1rem;"></div>
+                <div class="generated-image">
+                    <img id="generatedImg" src="" alt="Image with AI weather change">
+                    <button class="btn btn-secondary" id="downloadBtn">
+                        <i class="fas fa-download"></i>
+                        Download
+                    </button>
+                </div>
+            </div>
+        </div>
+        <div class="history-section fade-in-up delay-3" id="historySection">
+            <div class="section-header">
+                <h2 class="section-title">
+                    <i class="fas fa-history"></i>
+                    Your Weather Change History
+                </h2>
+            </div>
+            <div class="history-container" id="historyContainer">
+                <div class="empty-history-message" id="emptyHistoryMessage">
+                    <div class="empty-icon-container">
+                        <i class="fas fa-image"></i>
+                    </div>
+                    <p>Your recently weather-changed images will appear here</p>
+                    <p class="empty-history-subtitle">Try changing the weather in your first image!</p>
+                </div>
+            </div>
+            <button class="btn btn-outline btn-with-icon" id="clearHistoryBtn" style="display: none;">
+                <i class="fas fa-trash-alt"></i>
+                <span>Clear History</span>
+            </button>
+            <div class="history-pagination" id="historyPagination" style="display: none;">
+                <button class="pagination-prev" disabled>
+                    <i class="fas fa-chevron-left"></i>
+                </button>
+                <span class="pagination-info">Page <span id="currentPage">1</span> of <span id="totalPages">1</span></span>
+                <button class="pagination-next">
+                    <i class="fas fa-chevron-right"></i>
+                </button>
+            </div>
+        </div>
+           <!-- Additional Resources Section -->
+      <div class="wc-song-resources fade-in-up delay-4">
+        <div class="wc-song-resources-grid">
+          <a
+            href="https://www.writecream.com/ai-headshot-generator-free/"
+            class="wc-song-resource-link"
+            target="_blank"
+            rel="dofollow"
+          >
+            <div class="wc-song-resource-item">
+              <div class="image-container">
+                <img
+                  src="https://res.cloudinary.com/dlftnolbe/image/upload/v1747991016/Headshot_Generator_xzklrm.png"
+                  data-src="https://res.cloudinary.com/dlftnolbe/image/upload/v1747991016/Headshot_Generator_xzklrm.png"
+                  data-orig-src="https://res.cloudinary.com/dlftnolbe/image/upload/v1747991016/Headshot_Generator_xzklrm.png"
+                  alt="AI Headshot Generator"
+                  class="other-tools-image"
+                />
+                <h3>AI Headshot Generator</h3>
+              </div>
+              <p>
+                Create stunning AI headshots with professional lighting and
+                background. Perfect for LinkedIn, social media, and professional
+                profiles.
+              </p>
+            </div>
+          </a>
+
+          <a
+            href="https://www.writecream.com/ai-tattoo-generator-2/"
+            class="wc-song-resource-link"
+            target="_blank"
+            rel="dofollow"
+          >
+            <div class="wc-song-resource-item">
+              <div class="image-container">
+                <img
+                  src="https://res.cloudinary.com/dlftnolbe/image/upload/v1747990886/Tattoo_Generator_gx1nn5.png"
+                  data-src="https://res.cloudinary.com/dlftnolbe/image/upload/v1747990886/Tattoo_Generator_gx1nn5.png"
+                  data-orig-src="https://res.cloudinary.com/dlftnolbe/image/upload/v1747990886/Tattoo_Generator_gx1nn5.png"
+                  alt="AI Tattoo Generator"
+                  class="other-tools-image"
+                />
+                <h3>AI Tattoo Generator</h3>
+              </div>
+              <p>
+                Generate realistic tattoos with AI. Choose from various styles
+                and designs for your next tattoo.
+              </p>
+            </div>
+          </a>
+
+          <a
+            href="https://www.writecream.com/ai-portrait-enhancer/"
+            class="wc-song-resource-link"
+            target="_blank"
+            rel="dofollow"
+          >
+            <div class="wc-song-resource-item">
+              <div class="image-container">
+                <img
+                  src="https://res.cloudinary.com/dlftnolbe/image/upload/v1747993635/Portrait_Enhancer_fveifb.png"
+                  data-src="https://res.cloudinary.com/dlftnolbe/image/upload/v1747993635/Portrait_Enhancer_fveifb.png"
+                  data-orig-src="https://res.cloudinary.com/dlftnolbe/image/upload/v1747993635/Portrait_Enhancer_fveifb.png"
+                  alt="Portrait Enhancer"
+                  class="other-tools-image"
+                />
+                <h3>Portrait Enhancer</h3>
+              </div>
+              <p>
+                Enhance your photos with AI-powered portrait enhancement.
+                Perfect for professional headshots and portraits.
+              </p>
+            </div>
+          </a>
+
+          <a
+            href="https://www.writecream.com/unblur-image/"
+            class="wc-song-resource-link"
+            target="_blank"
+            rel="dofollow"
+          >
+            <div class="wc-song-resource-item">
+              <div class="image-container">
+                <img
+                  src="https://res.cloudinary.com/dlftnolbe/image/upload/v1747990389/Unblur_oq87eh.png"
+                  data-src="https://res.cloudinary.com/dlftnolbe/image/upload/v1747990389/Unblur_oq87eh.png"
+                  data-orig-src="https://res.cloudinary.com/dlftnolbe/image/upload/v1747990389/Unblur_oq87eh.png"
+                  alt="Unblur Image"
+                  class="other-tools-image"
+                />
+                <h3>Unblur Image</h3>
+              </div>
+              <p>
+                Remove blur from images to enhance clarity and visibility.
+                Perfect for photos and documents.
+              </p>
+            </div>
+          </a>
+        </div>
+      </div>
+
+      <!-- Other Tools Carousel Section -->
+      <div class="other-tools-carousel fade-in-up delay-1">
+        <h2 class="wc-song-section-title" style="font-size: 2rem">
+          Other Tools
+        </h2>
+
+        <div class="other-tools-grid">
+          <a
+            href="https://www.writecream.com/ai-comedy-story-generator/"
+            class="other-tools-link"
+            target="_blank"
+            rel="dofollow"
+          >
+            <div class="other-tools-item">
+              <div style="display: flex; align-items: center; gap: 1rem">
+                <img
+                  style="width: 30%; object-fit: contain"
+                  src="https://www.writecream.com/wp-content/uploads/2025/04/AI_Comedy_Generator-1.png"
+                  data-src="https://www.writecream.com/wp-content/uploads/2025/04/AI_Comedy_Generator-1.png"
+                  data-orig-src="https://www.writecream.com/wp-content/uploads/2025/04/AI_Comedy_Generator-1.png"
+                  alt="AI Comedy Story Generator"
+                  class="other-tools-image"
+                />
+                <h3>AI Comedy Story Generator</h3>
+              </div>
+              <p>
+                Turn your ideas into hilarious stories! Create witty narratives
+                and side-splitting tales with our AI-powered comedy generator.
+              </p>
+            </div>
+          </a>
+
+          <a
+            href="https://www.writecream.com/horror-story-generator/"
+            class="other-tools-link"
+            target="_blank"
+            rel="dofollow"
+          >
+            <div class="other-tools-item">
+              <div style="display: flex; align-items: center; gap: 1rem">
+                <img
+                  style="width: 30%; object-fit: contain"
+                  src="https://www.writecream.com/wp-content/uploads/2025/05/AI_Horror_Generator.png"
+                  data-src="https://www.writecream.com/wp-content/uploads/2025/05/AI_Horror_Generator.png"
+                  data-orig-src="https://www.writecream.com/wp-content/uploads/2025/05/AI_Horror_Generator.png"
+                  alt="AI Horror Story Generator"
+                  class="other-tools-image"
+                />
+                <h3>AI Horror Story Generator</h3>
+              </div>
+              <p>
+                Create terrifying horror stories, haunted narratives, and
+                nightmarish tales with our AI-powered horror story generator.
+              </p>
+            </div>
+          </a>
+
+          <a
+            href="https://www.writecream.com/ai-to-humanizer-tool/"
+            class="other-tools-link"
+            target="_blank"
+            rel="dofollow"
+          >
+            <div class="other-tools-item">
+              <div style="display: flex; align-items: center; gap: 1rem">
+                <img
+                  style="width: 30%; object-fit: contain"
+                  src="https://www.writecream.com/wp-content/uploads/2025/04/Humanize_Text.png"
+                  data-src="https://www.writecream.com/wp-content/uploads/2025/04/Humanize_Text.png"
+                  data-orig-src="https://www.writecream.com/wp-content/uploads/2025/04/Humanize_Text.png"
+                  alt="AI to Humanizer Tool"
+                  class="other-tools-image"
+                />
+                <h3>AI to Humanizer Tool</h3>
+              </div>
+              <p>
+                Transform AI-generated text into natural, human-like content.
+                Bypass AI detection and make your writing more engaging and
+                relatable.
+              </p>
+            </div>
+          </a>
+
+          <a
+            href="https://www.writecream.com/ai-image-generator-2/"
+            class="other-tools-link"
+            target="_blank"
+            rel="dofollow"
+          >
+            <div class="other-tools-item">
+              <div style="display: flex; align-items: center; gap: 1rem">
+                <img
+                  style="width: 30%; object-fit: contain"
+                  src="https://www.writecream.com/wp-content/uploads/2025/04/ai-generator-image.png"
+                  data-src="https://www.writecream.com/wp-content/uploads/2025/04/ai-generator-image.png"
+                  data-orig-src="https://www.writecream.com/wp-content/uploads/2025/04/ai-generator-image.png"
+                  alt="AI Image Generator"
+                  class="other-tools-image"
+                />
+                <h3>AI Image Generator</h3>
+              </div>
+              <p>
+                Create stunning, high-quality images and eye-catching visuals in
+                seconds. Perfect for social media, marketing, and creative
+                projects.
+              </p>
+            </div>
+          </a>
+
+          <a
+            href="https://www.writecream.com/study-guide/"
+            class="other-tools-link"
+            target="_blank"
+            rel="dofollow"
+          >
+            <div class="other-tools-item">
+              <div style="display: flex; align-items: center; gap: 1rem">
+                <img
+                  style="width: 30%; object-fit: contain"
+                  src="https://www.writecream.com/wp-content/uploads/2025/04/Study_Guide.png"
+                  data-src="https://www.writecream.com/wp-content/uploads/2025/04/Study_Guide.png"
+                  data-orig-src="https://www.writecream.com/wp-content/uploads/2025/04/Study_Guide.png"
+                  alt="Study Guide Generator"
+                  class="other-tools-image"
+                />
+                <h3>Study Guide Generator</h3>
+              </div>
+              <p>
+                Create comprehensive study guides with key concepts, summaries,
+                and practice questions. Perfect for students and educators.
+              </p>
+            </div>
+          </a>
+
+          <a
+            href="https://www.writecream.com/ui-to-code-converter/"
+            class="other-tools-link"
+            target="_blank"
+            rel="dofollow"
+          >
+            <div class="other-tools-item">
+              <div style="display: flex; align-items: center; gap: 1rem">
+                <img
+                  style="width: 30%; object-fit: contain"
+                  src="https://www.writecream.com/wp-content/uploads/2025/04/UI_To_Code.png"
+                  data-src="https://www.writecream.com/wp-content/uploads/2025/04/UI_To_Code.png"
+                  data-orig-src="https://www.writecream.com/wp-content/uploads/2025/04/UI_To_Code.png"
+                  alt="UI to Code Converter"
+                  class="other-tools-image"
+                />
+                <h3>UI to Code Converter</h3>
+              </div>
+              <p>
+                Transform your UI designs into clean, production-ready code
+                instantly. Get pixel-perfect HTML and CSS with AI-powered
+                conversion.
+              </p>
+            </div>
+          </a>
+          <a
+            href="https://www.writecream.com/ai-comedy-story-generator/"
+            class="other-tools-link"
+            target="_blank"
+            rel="dofollow"
+          >
+            <div class="other-tools-item">
+              <div style="display: flex; align-items: center; gap: 1rem">
+                <img
+                  style="width: 30%; object-fit: contain"
+                  src="https://www.writecream.com/wp-content/uploads/2025/04/AI_Comedy_Generator-1.png"
+                  data-src="https://www.writecream.com/wp-content/uploads/2025/04/AI_Comedy_Generator-1.png"
+                  data-orig-src="https://www.writecream.com/wp-content/uploads/2025/04/AI_Comedy_Generator-1.png"
+                  alt="AI Comedy Story Generator"
+                  class="other-tools-image"
+                />
+                <h3>AI Comedy Story Generator</h3>
+              </div>
+              <p>
+                Turn your ideas into hilarious stories! Create witty narratives
+                and side-splitting tales with our AI-powered comedy generator.
+              </p>
+            </div>
+          </a>
+
+          <a
+            href="https://www.writecream.com/horror-story-generator/"
+            class="other-tools-link"
+            target="_blank"
+            rel="dofollow"
+          >
+            <div class="other-tools-item">
+              <div style="display: flex; align-items: center; gap: 1rem">
+                <img
+                  style="width: 30%; object-fit: contain"
+                  src="https://www.writecream.com/wp-content/uploads/2025/05/AI_Horror_Generator.png"
+                  data-src="https://www.writecream.com/wp-content/uploads/2025/05/AI_Horror_Generator.png"
+                  data-orig-src="https://www.writecream.com/wp-content/uploads/2025/05/AI_Horror_Generator.png"
+                  alt="AI Horror Story Generator"
+                  class="other-tools-image"
+                />
+                <h3>AI Horror Story Generator</h3>
+              </div>
+              <p>
+                Create terrifying horror stories, haunted narratives, and
+                nightmarish tales with our AI-powered horror story generator.
+              </p>
+            </div>
+          </a>
+
+          <a
+            href="https://www.writecream.com/ai-to-humanizer-tool/"
+            class="other-tools-link"
+            target="_blank"
+            rel="dofollow"
+          >
+            <div class="other-tools-item">
+              <div style="display: flex; align-items: center; gap: 1rem">
+                <img
+                  style="width: 30%; object-fit: contain"
+                  src="https://www.writecream.com/wp-content/uploads/2025/04/Humanize_Text.png"
+                  data-src="https://www.writecream.com/wp-content/uploads/2025/04/Humanize_Text.png"
+                  data-orig-src="https://www.writecream.com/wp-content/uploads/2025/04/Humanize_Text.png"
+                  alt="AI to Humanizer Tool"
+                  class="other-tools-image"
+                />
+                <h3>AI to Humanizer Tool</h3>
+              </div>
+              <p>
+                Transform AI-generated text into natural, human-like content.
+                Bypass AI detection and make your writing more engaging and
+                relatable.
+              </p>
+            </div>
+          </a>
+
+          <a
+            href="https://www.writecream.com/ai-image-generator-2/"
+            class="other-tools-link"
+            target="_blank"
+            rel="dofollow"
+          >
+            <div class="other-tools-item">
+              <div style="display: flex; align-items: center; gap: 1rem">
+                <img
+                  style="width: 30%; object-fit: contain"
+                  src="https://www.writecream.com/wp-content/uploads/2025/04/ai-generator-image.png"
+                  data-src="https://www.writecream.com/wp-content/uploads/2025/04/ai-generator-image.png"
+                  data-orig-src="https://www.writecream.com/wp-content/uploads/2025/04/ai-generator-image.png"
+                  alt="AI Image Generator"
+                  class="other-tools-image"
+                />
+                <h3>AI Image Generator</h3>
+              </div>
+              <p>
+                Create stunning, high-quality images and eye-catching visuals in
+                seconds. Perfect for social media, marketing, and creative
+                projects.
+              </p>
+            </div>
+          </a>
+
+          <a
+            href="https://www.writecream.com/study-guide/"
+            class="other-tools-link"
+            target="_blank"
+            rel="dofollow"
+          >
+            <div class="other-tools-item">
+              <div style="display: flex; align-items: center; gap: 1rem">
+                <img
+                  style="width: 30%; object-fit: contain"
+                  src="https://www.writecream.com/wp-content/uploads/2025/04/Study_Guide.png"
+                  data-src="https://www.writecream.com/wp-content/uploads/2025/04/Study_Guide.png"
+                  data-orig-src="https://www.writecream.com/wp-content/uploads/2025/04/Study_Guide.png"
+                  alt="Study Guide Generator"
+                  class="other-tools-image"
+                />
+                <h3>Study Guide Generator</h3>
+              </div>
+              <p>
+                Create comprehensive study guides with key concepts, summaries,
+                and practice questions. Perfect for students and educators.
+              </p>
+            </div>
+          </a>
+
+          <a
+            href="https://www.writecream.com/ui-to-code-converter/"
+            class="other-tools-link"
+            target="_blank"
+            rel="dofollow"
+          >
+            <div class="other-tools-item">
+              <div style="display: flex; align-items: center; gap: 1rem">
+                <img
+                  style="width: 30%; object-fit: contain"
+                  src="https://www.writecream.com/wp-content/uploads/2025/04/UI_To_Code.png"
+                  data-src="https://www.writecream.com/wp-content/uploads/2025/04/UI_To_Code.png"
+                  data-orig-src="https://www.writecream.com/wp-content/uploads/2025/04/UI_To_Code.png"
+                  alt="UI to Code Converter"
+                  class="other-tools-image"
+                />
+                <h3>UI to Code Converter</h3>
+              </div>
+              <p>
+                Transform your UI designs into clean, production-ready code
+                instantly. Get pixel-perfect HTML and CSS with AI-powered
+                conversion.
+              </p>
+            </div>
+          </a>
+        </div>
+      </div>
+        <!-- First section with video on left, content on right -->
+        <div class="alternating-section fade-in-up delay-1">
+            <div class="section-video">
+              <video width="100%" height="300" autoplay loop muted playsinline style="pointer-events: none" tabindex="-1" aria-hidden="true">
+                <source src="./assets/night-wind (online-video-cutter.com).mp4" type="video/mp4" />
+                Your browser does not support the video tag.
+              </video>
+            </div>
+            <div class="section-content">
+                <h2>The Most Advanced AI Image Weather Changer</h2>
+                <p>
+                    Experience the next generation of image editing with our AI Image Weather Changer. Powered by state-of-the-art deep learning, our tool analyzes your photo and generates stunningly realistic weather effects, perfectly blended into the background. Whether you want to turn a dull afternoon into a vibrant sunny day, or make your summer photos look like a winter wonderland, everything is possible. The system is designed to detect natural lighting, shadows, and background depth, ensuring the new weather looks convincing and natural. Perfect for creating mood boards, seasonal marketing assets, or just impressing your friends with your photo manipulation skills. Try it now and see your images come to life!
+                </p>
+                <a href="#promptSection" class="section-cta">Try Image Weather Changer – No Sign Up</a>
+            </div>
+        </div>
+        <div class="alternating-section fade-in-up delay-2" style="margin-bottom: 2rem;">
+            <div class="section-content">
+                <h2>All Weather, All Seasons, One Click</h2>
+                <p>
+                    The AI Image Weather Changer gives you total creative freedom to experiment with weather effects. Instantly switch between seasons, add subtle atmospheric haze, or create dramatic stormy scenes. Our AI offers a wide selection of weather types: rain, snow, sun, fog, thunder, clouds, hail, and even rainbows. Each effect is customizable in intensity and style, letting you evoke any mood or tell any story. Whether you want a soft spring drizzle or a wild blizzard, you can make it happen in seconds. No technical skills required—just your imagination and a photo!
+                </p>
+                <a href="#promptSection" class="section-cta">Change Weather Instantly</a>
+            </div>
+            <div class="section-image">
+              <div class="weather-example">
+                <img src="./assets/image1.png" alt="Image Weather Changer Example" class="single-image" style="width: 100%; margin-bottom: 0.5rem" />
+              </div>
+            </div>
+        </div>
+        <div class="features-section fade-in-up delay-2">
+            <h2 class="card-title">
+                Why Choose Our AI Image Weather Changer?
+            </h2>
+            <div class="features-list">
+                <div class="feature-item">
+                    <i class="fas fa-brain"></i>
+                    <h3>AI-Powered Weather Generation</h3>
+                    <p>Deep learning algorithms analyze image context to create highly realistic weather overlays.</p>
+                </div>
+                <div class="feature-item">
+                    <i class="fas fa-cloud-sun"></i>
+                    <h3>Multiple Weather Styles</h3>
+                    <p>Add rain, snow, sunshine, fog, thunderstorms, or mix effects for unique results.</p>
+                </div>
+                <div class="feature-item">
+                    <i class="fas fa-paint-brush"></i>
+                    <h3>Customizable Intensity</h3>
+                    <p>Fine-tune the strength and look of each effect to match your creative vision.</p>
+                </div>
+                <div class="feature-item">
+                    <i class="fas fa-bolt"></i>
+                    <h3>Instant, High-Quality Results</h3>
+                    <p>Enjoy professional-grade weather changes in seconds without any complex editing.</p>
+                </div>
+                <div class="feature-item">
+                    <i class="fas fa-unlock"></i>
+                    <h3>Free and No Registration</h3>
+                    <p>Use the tool as much as you want, for free, no sign-up or credit card required.</p>
+                </div>
+                <div class="feature-item">
+                    <i class="fas fa-lock"></i>
+                    <h3>Private and Secure</h3>
+                    <p>Your photos are processed securely and never stored or shared.</p>
+                </div>
+            </div>
+        </div>
+        <div class="fade-in-up delay-3">
+            <h2 class="card-title">How It Works: AI Weather Change in Four Simple Steps</h2>
+            <div class="steps-list">
+                <div class="step-item fade-in-left delay-1">
+                    <div class="step-number">1</div>
+                    <h3>Upload Your Photo</h3>
+                    <p>Choose your image from your computer, phone, or tablet.</p>
+                </div>
+                <div class="step-item fade-in-left delay-2">
+                    <div class="step-number">2</div>
+                    <h3>Select Weather Effect</h3>
+                    <p>Type or select the weather you want to add—rain, snow, sunshine, and more.</p>
+                </div>
+                <div class="step-item fade-in-left delay-3">
+                    <div class="step-number">3</div>
+                    <h3>AI Generates & Previews</h3>
+                    <p>Our AI creates a realistic weather transformation in seconds. Preview instantly!</p>
+                </div>
+                <div class="step-item fade-in-left delay-4">
+                    <div class="step-number">4</div>
+                    <h3>Download & Share</h3>
+                    <p>Download your weather-changed image in high resolution. Share anywhere!</p>
+                </div>
+            </div>
+        </div>
+        <div class="key-features-section fade-in-up delay-4">
+            <h2 class="card-title">
+                Key Features of Our Image Weather Changer
+            </h2>
+            <div class="features-list">
+                <div class="feature-item">
+                    <i class="fas fa-image"></i>
+                    <h3>Automatic Background Detection</h3>
+                    <p>AI intelligently applies weather effects only to the background, not the main subject.</p>
+                </div>
+                <div class="feature-item">
+                    <i class="fas fa-adjust"></i>
+                    <h3>Natural Lighting & Color</h3>
+                    <p>Ensures new weather matches original lighting and color for realism.</p>
+                </div>
+                <div class="feature-item">
+                    <i class="fas fa-smog"></i>
+                    <h3>Wide Range of Weather</h3>
+                    <p>Supports rain, snow, sun, fog, overcast, thunder, rainbow, and custom combinations.</p>
+                </div>
+                <div class="feature-item">
+                    <i class="fas fa-palette"></i>
+                    <h3>Instant Preview</h3>
+                    <p>See your weather change in real time before downloading.</p>
+                </div>
+                <div class="feature-item">
+                    <i class="fas fa-download"></i>
+                    <h3>High-Res Export</h3>
+                    <p>Export weather-changed images in high quality for print or digital use.</p>
+                </div>
+            </div>
+        </div>
+        <div class="benefits-section fade-in-up delay-1">
+            <h2 class="card-title">Benefits of Using the AI Image Weather Changer</h2>
+            <div class="benefits-list">
+                <div class="benefit-item">
+                    <i class="fas fa-magic"></i>
+                    <h3>Fix Bad Weather</h3>
+                    <p>Turn gloomy photos into bright sunny scenes, or add drama with storms and snow.</p>
+                </div>
+                <div class="benefit-item">
+                    <i class="fas fa-bullseye"></i>
+                    <h3>Tell Visual Stories</h3>
+                    <p>Match weather to your narrative—romantic rain, mysterious fog, or energetic sunshine.</p>
+                </div>
+                <div class="benefit-item">
+                    <i class="fas fa-calendar-day"></i>
+                    <h3>Seasonal Campaigns</h3>
+                    <p>Adapt marketing images for holidays or seasons with one click.</p>
+                </div>
+                <div class="benefit-item">
+                    <i class="fas fa-clock"></i>
+                    <h3>Save Editing Time</h3>
+                    <p>No Photoshop or manual editing required—AI does it instantly.</p>
+                </div>
+            </div>
+        </div>
+        <div class="users-section fade-in-up delay-2">
+            <h2 class="card-title">
+                Who Should Use the Image Weather Changer?
+            </h2>
+            <div class="users-list">
+                <div class="user-item">
+                    <i class="fas fa-camera"></i>
+                    <h3>Photographers</h3>
+                    <p>Rescue shoots ruined by bad weather, or add creative weather effects for clients.</p>
+                </div>
+                <div class="user-item">
+                    <i class="fas fa-bullhorn"></i>
+                    <h3>Marketers</h3>
+                    <p>Make product or campaign images more relevant to any season or mood.</p>
+                </div>
+                <div class="user-item">
+                    <i class="fas fa-paint-brush"></i>
+                    <h3>Designers & Artists</h3>
+                    <p>Experiment with new atmospheres for illustrations, book covers, or digital art.</p>
+                </div>
+                <div class="user-item">
+                    <i class="fas fa-users"></i>
+                    <h3>Social Media Influencers</h3>
+                    <p>Boost engagement with unique, eye-catching weather effects in your photos.</p>
+                </div>
+            </div>
+        </div>
+        <div class="resources-container fade-in-up delay-3">
+            <div>
+                <h2 class="card-title">Learn More About Changing Weather in Images</h2>
+                <div class="header-underline"></div>
+            </div>
+            <div class="resources-grid">
+                <div class="resource-card">
+                    <div class="card-header">
+                        <div class="icon-container">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path>
+                                <circle cx="12" cy="10" r="3"></circle>
+                            </svg>
+                        </div>
+                        <div class="tag">Tips</div>
+                    </div>
+                    <h3>How to Make Your Weather Effects Look Natural</h3>
+                    <p class="word-limit-30">Learn the secrets to making AI weather changes look realistic, including tips on lighting, shadows, and blending for believable results.</p>
+                    <a href="https://www.writecream.com/blog-natural-ai-weather-effects"
+                        class="btn-primary" target="_blank">
+                        <span>Read Weather Tips</span>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                            stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                            <line x1="5" y1="12" x2="19" y2="12"></line>
+                            <polyline points="12 5 19 12 12 19"></polyline>
+                        </svg>
+                    </a>
+                </div>
+                <div class="resource-card">
+                    <div class="card-header">
+                        <div class="icon-container">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                <polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"></polygon>
+                            </svg>
+                        </div>
+                        <div class="tag">Guide</div>
+                    </div>
+                    <h3>Complete Guide to AI Weather Changing Tools in 2025</h3>
+                    <p class="word-limit-30">A comprehensive comparison of the best AI weather changers for photos, including features, accuracy, and creative options.</p>
+                    <a href="https://www.writecream.com/blog-ai-weather-changer-guide-2025"
+                        class="btn-primary" target="_blank">
+                        <span>Read the 2025 Guide</span>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                            stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                            <line x1="5" y1="12" x2="19" y2="12"></line>
+                            <polyline points="12 5 19 12 12 19"></polyline>
+                        </svg>
+                    </a>
+                </div>
+                <div class="resource-card">
+                    <div class="card-header">
+                        <div class="icon-container">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                <path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20"></path>
+                                <path d="M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2z"></path>
+                            </svg>
+                        </div>
+                        <div class="tag">Tutorial</div>
+                    </div>
+                    <h3>Creative Uses for Changing Weather in Photos</h3>
+                    <p class="word-limit-30">Explore artistic and marketing ideas for using AI weather changing in campaigns, storytelling, and content creation.</p>
+                    <a href="https://www.writecream.com/blog-creative-weather-change-ideas"
+                        class="btn-primary" target="_blank">
+                        <span>Get Creative Inspiration</span>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                            stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                            <line x1="5" y1="12" x2="19" y2="12"></line>
+                            <polyline points="12 5 19 12 12 19"></polyline>
+                        </svg>
+                    </a>
+                </div>
+            </div>
+            <div class="faq-header">
+                <h2 class="card-title">Frequently Asked Questions</h2>
+                <div class="header-underline"></div>
+            </div>
+            <div class="faq-container">
+                <div class="faq-item">
+                    <div class="faq-question">
+                        <h3>Can I use the Image Weather Changer for commercial projects?</h3>
+                        <div class="faq-icon">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="plus">
+                                <line x1="12" y1="5" x2="12" y2="19"></line>
+                                <line x1="5" y1="12" x2="19" y2="12"></line>
+                            </svg>
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="minus">
+                                <line x1="5" y1="12" x2="19" y2="12"></line>
+                            </svg>
+                        </div>
+                    </div>
+                    <div class="faq-answer">
+                        <p>Yes, you can use images edited with our tool for personal or commercial purposes if you have the rights to the original photo.</p>
+                    </div>
+                </div>
+                <div class="faq-item">
+                    <div class="faq-question">
+                        <h3>How realistic are the weather effects?</h3>
+                        <div class="faq-icon">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="plus">
+                                <line x1="12" y1="5" x2="12" y2="19"></line>
+                                <line x1="5" y1="12" x2="19" y2="12"></line>
+                            </svg>
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="minus">
+                                <line x1="5" y1="12" x2="19" y2="12"></line>
+                            </svg>
+                        </div>
+                    </div>
+                    <div class="faq-answer">
+                        <p>Our AI analyzes lighting, perspective, and background to create natural, believable weather overlays that blend seamlessly with your photo.</p>
+                    </div>
+                </div>
+                <div class="faq-item">
+                    <div class="faq-question">
+                        <h3>Is there a limit to how many images I can edit?</h3>
+                        <div class="faq-icon">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="plus">
+                                <line x1="12" y1="5" x2="12" y2="19"></line>
+                                <line x1="5" y1="12" x2="19" y2="12"></line>
+                            </svg>
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="minus">
+                                <line x1="5" y1="12" x2="19" y2="12"></line>
+                            </svg>
+                        </div>
+                    </div>
+                    <div class="faq-answer">
+                        <p>We offer unlimited edits for most users. For very high usage or commercial access, please contact us for details.</p>
+                    </div>
+                </div>
+                <div class="faq-item">
+                    <div class="faq-question">
+                        <h3>Do I need to install anything?</h3>
+                        <div class="faq-icon">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="plus">
+                                <line x1="12" y1="5" x2="12" y2="19"></line>
+                                <line x1="5" y1="12" x2="19" y2="12"></line>
+                            </svg>
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="minus">
+                                <line x1="5" y1="12" x2="19" y2="12"></line>
+                            </svg>
+                        </div>
+                    </div>
+                    <div class="faq-answer">
+                        <p>No, everything runs in your browser. No downloads, installations, or plugins required.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Enhanced CTA section with improved UI -->
+        <div class="cta-section fade-in-up delay-4">
+            <div class="cta-background">
+                <div class="cta-shape shape-1"></div>
+                <div class="cta-shape shape-2"></div>
+                <div class="cta-shape shape-3"></div>
+                <div class="cta-pattern"></div>
+            </div>
+            <div class="cta-content">
+                <div class="cta-header">
+                    <div class="cta-icon-container">
+                        <i class="fas fa-cloud-sun-rain cta-icon-main"></i>
+                        <i class="fas fa-sparkles cta-icon-sparkle"></i>
+                    </div>
+                    <h2>Start Changing Weather in Your Photos Today!</h2>
+                </div>
+                <p>Transform your images with rain, snow, sun, or fog in seconds. The AI Image Weather Changer is free and ready to use—no sign-up needed. Try it now and make your photos stand out!</p>
+                <div class="cta-actions">
+                    <a href="#promptSection" class="btn btn-cta">
+                        <span class="btn-shine"></span>
+                        <i class="fas fa-image"></i>
+                        <span>Change Weather Now</span>
+                    </a>
+                    <div class="cta-features">
+                        <div class="cta-feature">
+                            <i class="fas fa-bolt"></i>
+                            <span>Instant AI Results</span>
+                        </div>
+                        <div class="cta-feature">
+                            <i class="fas fa-magic"></i>
+                            <span>Easy to Use</span>
+                        </div>
+                        <div class="cta-feature">
+                            <i class="fas fa-unlock"></i>
+                            <span>No Sign Up</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Popups and overlays -->
+        <div class="overlay" id="overlay"></div>
+        <div class="style-selector" id="style-popup">
+            <div class="popup-content">
+                <div class="popup-header">
+                    <h3>Select a weather style</h3>
+                    <button class="close-popup" id="close-style-popup" aria-label="Close popup">
+                        <i class="fas fa-times"></i>
+                    </button>
+                </div>
+                <div class="style-grid">
+                    <button class="style-option selected" data-style="general">
+                        <div class="style-preview">
+                            <img src="https://res.cloudinary.com/dlftnolbe/image/upload/v1747982809/general_n52u7c.png"
+                                alt="General style preview">
+                        </div>
+                        <div class="style-label">General</div>
+                    </button>
+                    <button class="style-option" data-style="rain">
+                        <div class="style-preview">
+                            <img src="https://res.cloudinary.com/dlftnolbe/image/upload/v1748052001/weather-style-rain.jpg"
+                                alt="Rain style preview">
+                        </div>
+                        <div class="style-label">Rain</div>
+                    </button>
+                    <button class="style-option" data-style="snow">
+                        <div class="style-preview">
+                            <img src="https://res.cloudinary.com/dlftnolbe/image/upload/v1748052002/weather-style-snow.jpg"
+                                alt="Snow style preview">
+                        </div>
+                        <div class="style-label">Snow</div>
+                    </button>
+                    <button class="style-option" data-style="sunny">
+                        <div class="style-preview">
+                            <img src="https://res.cloudinary.com/dlftnolbe/image/upload/v1748052003/weather-style-sunny.jpg"
+                                alt="Sunny style preview">
+                        </div>
+                        <div class="style-label">Sunny</div>
+                    </button>
+                    <button class="style-option" data-style="storm">
+                        <div class="style-preview">
+                            <img src="https://res.cloudinary.com/dlftnolbe/image/upload/v1748052004/weather-style-storm.jpg"
+                                alt="Storm style preview">
+                        </div>
+                        <div class="style-label">Storm</div>
+                    </button>
+                    <button class="style-option" data-style="fog">
+                        <div class="style-preview">
+                            <img src="https://res.cloudinary.com/dlftnolbe/image/upload/v1748052005/weather-style-fog.jpg"
+                                alt="Fog style preview">
+                        </div>
+                        <div class="style-label">Fog</div>
+                    </button>
+                    <button class="style-option" data-style="sunset">
+                        <div class="style-preview">
+                            <img src="https://res.cloudinary.com/dlftnolbe/image/upload/v1748052006/weather-style-sunset.jpg"
+                                alt="Sunset style preview">
+                        </div>
+                        <div class="style-label">Sunset</div>
+                    </button>
+                    <button class="style-option" data-style="overcast">
+                        <div class="style-preview">
+                            <img src="https://res.cloudinary.com/dlftnolbe/image/upload/v1748052007/weather-style-overcast.jpg"
+                                alt="Overcast style preview">
+                        </div>
+                        <div class="style-label">Overcast</div>
+                    </button>
+                    <button class="style-option" data-style="rainbow">
+                        <div class="style-preview">
+                            <img src="https://res.cloudinary.com/dlftnolbe/image/upload/v1748052008/weather-style-rainbow.jpg"
+                                alt="Rainbow style preview">
+                        </div>
+                        <div class="style-label">Rainbow</div>
+                    </button>
+                    <button class="style-option" data-style="night">
+                        <div class="style-preview">
+                            <img src="https://res.cloudinary.com/dlftnolbe/image/upload/v1748052009/weather-style-night-clear.jpg"
+                                alt="Night style preview">
+                        </div>
+                        <div class="style-label">Night</div>
+                    </button>
+                    <button class="style-option" data-style="custom">
+                        <div class="style-preview">
+                            <img src="https://res.cloudinary.com/dlftnolbe/image/upload/v1747982824/watercolor_dj07gv.png"
+                                alt="Custom weather style preview">
+                        </div>
+                        <div class="style-label">Custom</div>
+                    </button>
+                </div>
+            </div>
+        </div>
+        <div class="limit-modal" id="limitModal">
+            <div class="modal-content1">
+                <h3>Daily Limit Reached</h3>
+                <p>You have exceeded the limit. Come back tomorrow or signup for a free account for more generations.
+                </p>
+                <button class="btn btn-primary" id="limitModalCloseBtn">
+                    Got it
+                </button>
+            </div>
+        </div>
+    </div>
+    <script src="../script.js"></script>
+</body>
+</html>
